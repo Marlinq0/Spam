@@ -1,0 +1,17 @@
+{
+  "name": "Bot",
+  "version": "2.1.0",
+  "description": "Bot",
+  "main": "server.js",
+  "homepage": "https://github.com/Abady321x123/simple-music#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "node-emoji": "^1.10.0",
+    "message": "0.0.1",
+    "path": "0.12.7",
+    "replace": "^1.1.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

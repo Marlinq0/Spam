@@ -1,0 +1,62 @@
+
+
+// كل البكجات الي ممكن تحتجها في اي بوت
+const { Client, RichEmbed } = require("discord.js");
+var { Util } = require('discord.js');
+const {TOKEN, YT_API_KEY, prefix, devs} = require('./config')
+const client = new Client({ disableEveryone: true})
+const { get } = require('snekfetch');
+const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
+client.login(TOKEN);
+const Discord = require('discord.js');
+
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+let channel = client.channels.get("682211432019787783")
+setInterval(function() {
+  channel.send(`#daily`);
+}, 860000)
+    setInterval(function() {
+channel.send(`سبحان الله`+Math.random());
+}, 6000)
+  setInterval(function() {
+channel.send(`How are You`+Math.random());
+}, 30000)
+setInterval(function() {
+channel.send(`Im fine`+Math.random());
+}, 3500)
+setInterval(function() {
+channel.send(`You are not good with me why ?`+Math.random());
+}, 40000)
+setInterval(function() {
+channel.send(`becaues your ferless and i don't like you`+Math.random());
+}, 42000)
+setInterval(function() {
+channel.send(`WTF, Fack you`+Math.random());
+}, 45000)
+setInterval(function() {
+channel.send(`الله يسامحك`+Math.random());
+}, 46000)
+setInterval(function() {
+channel.send(`الله يوفق حموود و يعينه و يربي يوفقه انشاءالله`+Math.random());
+}, 50000)
+setInterval(function() {
+channel.send(`يرب عافي حمود و وفقه ف دنياه و اخرته يربي توفقه`+Math.random());
+}, 55000)
+setInterval(function() {
+channel.send(`How are You`+Math.random());
+}, 3000)
+setInterval(function() {
+channel.send(`Im fine`+Math.random());
+}, 3500)
+setInterval(function() {
+channel.send(`You are not good with me why ?`+Math.random());
+}, 4000)
+setInterval(function() {
+channel.send(`becaues your ferless and i don't like you`+Math.random());
+}, 4200)
+  setInterval(function() {
+channel.send(`#profile`);
+}, 6000)
+})
+
